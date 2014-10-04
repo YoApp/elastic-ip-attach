@@ -6,7 +6,7 @@ local EC2 instance.
 Usage:
 
 ```
-docker run --rm justyo/elastic-ip-attach \
+docker run --rm justyo/elastic-ip-attach /bin/elastic-ip-attach \
   --public-ip 54.183.130.13 \
   --region us-west-1\
   --access-key AWS_ACCESS_KEY \
